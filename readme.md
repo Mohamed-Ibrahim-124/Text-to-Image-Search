@@ -7,8 +7,11 @@ Dataset
 
 The Advertisement Image Dataset was used for this project. It was downloaded from the following links:
 
-    Subfolder 0: https://storage.googleapis.com/ads-dataset/subfolder-0.zip
-    Subfolder 1: https://storage.googleapis.com/ads-dataset/subfolder-1.zip
+- Subfolder 0: [Download Link](https://storage.googleapis.com/ads-dataset/subfolder-0.zip)
+- Subfolder 1: [Download Link](https://storage.googleapis.com/ads-dataset/subfolder-1.zip)
+
+The dataset is expected to be located in the `images` directory by default. However, the dataset location can be
+configured in the `config.py` file.
 
 Data Exploration
 
