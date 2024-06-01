@@ -34,7 +34,6 @@ def setup_environment(
 
     # Qdrant configuration
     qdrant_client = QdrantClient(":memory:")
-    collection_name = "images"
     # CLIP model and processor
     processor = CLIPProcessor.from_pretrained(model_name)
     model = CLIPModel.from_pretrained(model_name).to(device)
